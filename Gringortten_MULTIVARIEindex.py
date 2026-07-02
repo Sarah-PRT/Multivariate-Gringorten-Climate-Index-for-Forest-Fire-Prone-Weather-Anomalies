@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-@author: Sarah Prunot
+@author: Sarah 
 """
 
 import numpy as np
