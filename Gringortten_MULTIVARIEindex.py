@@ -280,7 +280,7 @@ if dfs_multivariate:
     print(df_merged_multivariate.head())
 
     # Save outputs
-    output_path_multivariate = "/work/crct/sp496012/These/OUTPUT/SIM/CSV/INDEX_NORMALISE_uni_multivarie/MULTIVARIE/df_merged_multivariate.csv"
+    output_path_multivariate = "/MULTIVARIE/df_merged_multivariate.csv"
     df_merged_multivariate.to_csv(output_path_multivariate, index=False)
     print(f"\nComplete multivariate DataFrame saved to: {output_path_multivariate}")
 else:
