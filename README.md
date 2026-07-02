@@ -1,4 +1,4 @@
-# Multivariate Gringorten Climate Index for Forest Fire-Prone Weather Anomalies
+# Multivariate Gringorten Climate Index for Weather Anomalies
 
 This repository contains the code for calculating a standardized multivariate climate index (Z-Score) based on Gringorten's empirical plotting position statistical method. Adapted from Lanet et al., (2024), this script captures the co-occurrence of climate factors to analyze how compound events modify and intensify wildfire hazards. By default, the script evaluates combined anomalies at multiple timescales, (such as 1, 3, and 6 months). The anomaly sign (positive or negative) is selected for each variable.
 The grid-point calculation is performed on Safran-Isba-Modcou data converted into NetCDF format (https://www.data.gouv.fr/datasets/donnees-changement-climatique-sim-quotidienne). It relies on the reference data file named 'Gringortten_MULTIVARIEindex.py
